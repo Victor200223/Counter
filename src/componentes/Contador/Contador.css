@@ -1,0 +1,112 @@
+.contenedorContador {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 250px;
+  max-width: 420px;
+  padding: 0 8px;
+  margin-left: 10px;
+  transition: 2s;
+  border-radius: 50px;
+}
+.contenedorContador:hover p {
+  color: white;
+}
+.contenedorContador:hover {
+  background-color: #fec260;
+}
+
+.tituloContador {
+  font-weight: bold;
+  color: #a12568;
+  font-size: 48px;
+  text-align: center;
+}
+
+.numeroContador {
+  font-weight: 700;
+  color: #fec260;
+  font-size: 96px;
+  margin: 0;
+  transition: 2s;
+}
+
+.contenedorContador > div {
+  margin-top: 36px;
+}
+
+.resta {
+  font-weight: 1000;
+  background-color: #a12568;
+  color: #3b185f;
+  font-size: 35px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid #a12568;
+  margin-right: 8px;
+  transition: 1s;
+}
+.resta:hover {
+  background-color: #3b185f;
+  color: #a12568;
+}
+.suma {
+  font-weight: 1000;
+  background-color: #a12568;
+  color: #3b185f;
+  font-size: 35px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid #a12568;
+  margin-left: 8px;
+  transition: 1s;
+}
+.suma:hover {
+  background-color: #3b185f;
+  color: #a12568;
+}
+.borrar {
+  font-weight: 1000;
+  background-color: #a12568;
+  color: #3b185f;
+  font-size: 30px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid #a12568;
+  margin-left: 15px;
+  transition: 1s;
+}
+.borrar:hover {
+  background-color: #3b185f;
+  color: #a12568;
+}
+.recargar {
+  font-weight: 1000;
+  background-color: #a12568;
+  color: #3b185f;
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid #a12568;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  transition: 1s;
+}
+.recargar:hover {
+  background-color: #3b185f;
+  color: #a12568;
+}
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
